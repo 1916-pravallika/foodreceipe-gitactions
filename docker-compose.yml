@@ -6,7 +6,7 @@ services:
     container_name: foodreceipe-db
     restart: always
     environment:
-      MYSQL_DATABASE: root
+      MYSQL_DATABASE: projectt
       MYSQL_ROOT_PASSWORD: root
     ports:
       - "3306:3306"
